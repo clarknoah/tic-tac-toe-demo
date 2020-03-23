@@ -1,0 +1,63 @@
+* {
+  box-sizing: border-box;
+}
+
+body  {
+  margin:0;
+  width: 100vw;
+  height: 100vh;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+.game-title{
+  height: 10%;
+  width: 100%;
+}
+
+.game-content{
+  height: 90%;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.board{
+  display: grid;
+  width: 70%;
+  grid-template-columns:200px 200px 200px;
+  grid-template-rows: 200px 200px 200px;
+  grid-gap: 10px;
+}
+
+.actions {
+  width: 30%;
+}
+
+.reset-button{
+
+}
+
+
+
+.square {
+  background-color: grey;
+}
+
+.playerOneClicked {
+  background-color: red;
+}
+
+
+.playerTwoClicked {
+  background-color: blue;
+}
+
+
+
+
